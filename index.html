@@ -1,145 +1,359 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 <head>
-<title>Avinash Sudake | MCA Portfolio</title>
-<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Sudake | MCA Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        
+    </style>
 </head>
-<body>
-<header>
-<h1>👨‍💻 Avinash Satish Sudake</h1>
-<p>🎓 MCA Student | 💻 Web Developer | 🚀 Fresher</p>
-</header>
+<body class="text-slate-200">
 
-<nav class="nav-links">
-<a href="#Home">🏠 Home</a>
-<a href="#About">👨‍💻 About</a>
-<a href="#Skills">🛠 Skills</a>
-<a href="#Projects">📂 Projects</a>
-<a href="#Education">🎓 Education</a>
-<a href="#Contact">📞 Contact</a>
-</nav>
-</div>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                Avinash Sudake
+            </span>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-widest">
+                <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
+                <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
+				<a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
+                <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+            </div>
+            <a href="mailto:sudakeavinash42@gmail.com" class="hidden sm:block bg-blue-600 hover:bg-blue-500 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-tighter transition-all transform hover:scale-105 active:scale-95 text-white shadow-lg shadow-blue-500/20">
+                Hire Me
+            </a>
+        </div>
+    </nav>
 
-<section>
-<h2>👨‍💻 About Me</h2>
-<p>
-I am an enthusiastic MCA fresher passionate about web development and software technologies. 
-I have knowledge of HTML, CSS, PHP, MySQL and basic JavaScript. 
-I enjoy creating responsive websites and learning new technologies.
-</p>
-</section>
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-32 pb-20 hero-gradient px-6 overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center animate__animated animate__fadeInUp">
+            
+            <!-- Profile Photo Section -->
+            <div class="relative w-32 h-32 md:w-44 md:h-44 mx-auto mb-10 profile-ring">
+                <div class="w-full h-full rounded-full overflow-hidden border-4 border-slate-800 bg-slate-900 shadow-2xl relative z-10">
+                    <img src="image/Avi Img.png" 
+                         alt="Avinash Sudake" 
+                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                         onerror="this.src='https://ui-avatars.com/api/?name=Avinash+Sudake&background=0D8ABC&color=fff&size=512'">
+                </div>
+            </div>
 
-<section>
-<h2>🎯 Career Objective</h2>
-<p>
-To start my career in a reputed organization where I can use my skills, learn new technologies, and gain practical experience.
-</p>
-</section>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-8">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                </span>
+                Available for opportunities
+            </div>
+            
+            <h1 class="text-6xl md:text-7xl font-black mb-6 tracking-tighter leading-none">
+                Avinash <span class="text-blue-500">Sudake</span>
+            </h1>
+            <p class="text-lg md:text-2xl text-slate-400 mb-10 max-w-2xl mx-auto font-medium">
+                🎓 MCA Student | 💻 Web Developer | 🚀 Fresher
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="image/Resume.pdf" class="group bg-white text-slate-950 px-8 py-4 rounded-2xl font-bold hover:bg-blue-50 transition-all flex items-center gap-3 shadow-xl shadow-white/5">
+                    Download Resume <i data-lucide="download" class="w-5 h-5 group-hover:animate-bounce"></i>
+                </a>
+				 <a href="https://github.com/Avinash-Sudake" class="group bg-white text-slate-950 px-8 py-4 rounded-2xl font-bold hover:bg-blue-50 transition-all flex items-center gap-3 shadow-xl shadow-white/5">
+                    GitHub
+                 </a>
+				<a href="https://linkedin.com/in/avinash-sudake" class="group bg-white text-slate-950 px-8 py-4 rounded-2xl font-bold hover:bg-blue-50 transition-all flex items-center gap-3 shadow-xl shadow-white/5">
+                    linkedin 
+                </a>            
+            </div>
+        </div>
+        
+        <div class="absolute top-1/4 -left-20 w-64 h-64 bg-blue-600/10 rounded-full blur-[100px]"></div>
+        <div class="absolute bottom-1/4 -right-20 w-64 h-64 bg-indigo-600/10 rounded-full blur-[100px]"></div>
+    </section>
 
-<section>
-<p>
-<h2>📄 Click here to download my resume 👉 <a href="Resume.pdf" download> Click Here</a>
-</h2></p>
-</section>
+    <!-- About & Objective -->
+    <section id="about" class="py-24 px-6 relative z-10">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-1 px-0 bg-blue-500 rounded-full"></div>
+                    <span class="text-blue-500 font-bold uppercase tracking-widest text-sm">About Me</span>
+                </div>
+                <h2 class="text-4xl font-bold mb-6">Avinash Satish Sudake <span class="text-blue-500"></span></h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                  I am an MCA fresher who is passionate about web development. I have basic knowledge of HTML, CSS, PHP, MySQL, JavaScript, and Python. I enjoy creating websites and learning new technologies. I like solving problems and improving my skills.
+                </p>
+                <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-3xl">
+                    <h3 class="text-white font-bold mb-2 flex items-center gap-2">
+                        <i data-lucide="target" class="text-blue-400 w-5 h-5"></i> Career Objective
+                    </h3>
+                    <p class="text-slate-400 text-sm">
+                        To start my career in a reputed organization where I can use my skills, learn new technologies, and gain practical experience while contributing to the growth of the company.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 animate__animated animate__fadeInRight">
+                <div class="p-8 glass rounded-3xl text-center">
+                    <h4 class="text-4xl font-black text-blue-500 mb-2">2+</h4>
+                    <p class="text-slate-400 text-xs uppercase font-bold tracking-widest">Key Projects</p>
+                </div>
+                <div class="p-8 glass rounded-3xl text-center">
+                    <h4 class="text-4xl font-black text-indigo-500 mb-2">3</h4>
+                    <p class="text-slate-400 text-xs uppercase font-bold tracking-widest">Languages</p>
+                </div>
+                <div class="p-8 glass rounded-3xl text-center col-span-2">
+                    <h4 class="text-xl font-bold text-white mb-1 italic">"Always Learning"</h4>
+                    <p class="text-slate-400 text-xs uppercase font-bold tracking-widest">Core Philosophy</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>🛠 Skills</h2>
+    <!-- Skills -->
+    <section id="skills" class="py-24 px-6 bg-slate-900/30">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Technical <span class="text-blue-500">Toolkit</span></h2>
+                <p class="text-slate-400">The technologies I use to bring ideas to life.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="layout" class="w-8 h-8 text-orange-500 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">HTML5 / CSS3</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="code-2" class="w-8 h-8 text-blue-400 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">PHP</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="database" class="w-8 h-8 text-emerald-400 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">MySQL</span>
+                </div>
+                <!-- Updated: Python added instead of JavaScript -->
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="terminal" class="w-8 h-8 text-yellow-500 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">Python</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="cpu" class="w-8 h-8 text-blue-600 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">C / C++</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="github" class="w-8 h-8 text-white mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">Git / GitHub</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="monitor" class="w-8 h-8 text-indigo-400 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">Web Design</span>
+                </div>
+                <div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                    <i data-lucide="file-text" class="w-8 h-8 text-slate-400 mb-4"></i>
+                    <span class="font-bold text-sm md:text-base">MS Office</span>
+                </div>
+				<div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+					<i data-lucide="file-spreadsheet" class="w-8 h-8 text-green-500 mb-4"></i>
+					<span class="font-bold text-sm md:text-base">Microsoft Excel</span>
+				</div>
+				<div class="skill-tag p-6 glass rounded-2xl border border-slate-800 flex flex-col items-center text-center">
+                   <i data-lucide="file" class="w-8 h-8 text-blue-500 mb-4"></i>
+                   <span class="font-bold text-sm md:text-base">Microsoft Word</span>
+                 </div>
+            </div>
+        </div>
+    </section>
 
-<div class="skills">
-<span>🌐 HTML</span>
-<span>🎨 CSS</span>
-<span>🐘 PHP</span>
-<span>🗄 MySQL</span>
-<span>⚡ JavaScript</span>
-<span>💻 C</span>
-<span>💻 C++</span>
-<span>📊 MS Office</span>
-</div>
+    <!-- Projects -->
+    <section id="projects" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+                <div>
+                    <h2 class="text-4xl font-bold">Featured <span class="text-blue-500">Projects</span></h2>
+                    <p class="text-slate-400 mt-2">A selection of my academic and personal work.</p>
+                </div>
+                <a href="https://github.com/Avinash-Sudake" target="_blank" class="text-blue-400 font-bold hover:underline flex items-center gap-2">
+                    View more on GitHub <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group bg-slate-900/50 border border-slate-800 rounded-3xl overflow-hidden hover:border-blue-500/30 transition-all">
+                    <div class="h-64 bg-slate-800 flex items-center justify-center relative overflow-hidden">
+                        <i data-lucide="coffee" class="w-20 h-20 text-slate-700 group-hover:scale-110 transition-transform duration-500"></i>
+                        <div class="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors"></div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase tracking-widest rounded-full border border-blue-500/20">C++ Programming</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Coffee Shop Management</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Created a Software System for coffee shop management, menu handling, customer orders, and billing using C++. ☕💻
+                        </p>
+                        <div class="flex gap-4">
+                            <a href="#" class="flex items-center gap-2 text-sm font-bold text-white hover:text-blue-400">
+                                <i data-lucide="github" class="w-4 h-4"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-</section>
+                <div class="group bg-slate-900/50 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/30 transition-all">
+                    <div class="h-64 bg-slate-800 flex items-center justify-center relative overflow-hidden">
+                        <i data-lucide="hotel" class="w-20 h-20 text-slate-700 group-hover:scale-110 transition-transform duration-500"></i>
+                        <div class="absolute inset-0 bg-emerald-600/10 group-hover:bg-transparent transition-colors"></div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-[10px] font-bold uppercase tracking-widest rounded-full border border-emerald-500/20">HTML,CSS,PHP & MySQL</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-emerald-400 transition-colors">Hotel Management System</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Created a Software System for hotel booking management, customer records and room details using HTML, CSS, PHP and MySQL.🏨
+                        </p>
+                        <div class="flex gap-4">
+                            <a href="#" class="flex items-center gap-2 text-sm font-bold text-white hover:text-emerald-400">
+                                <i data-lucide="github" class="w-4 h-4"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>📂 Projects</h2>
+    <!-- Education -->
+    <section id="education" class="py-24 px-6 bg-slate-900/30">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div class="lg:col-span-2">
+                <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+                    <i data-lucide="graduation-cap" class="text-purple-500 w-8 h-8"></i> Education
+                </h2>
+                <div class="space-y-8 relative before:absolute before:left-3 before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-800">
+                    <div class="relative pl-12 group">
+                        <div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-slate-950 border-2 border-purple-500 group-hover:bg-purple-500 transition-colors z-10 shadow-[0_0_15px_rgba(168,85,247,0.4)]"></div>
+                        <div>
+                            <span class="text-purple-400 text-xs font-bold uppercase tracking-widest">2025 - 2027</span>
+                            <h4 class="text-xl font-bold text-white mt-1">Master of Computer Applications (MCA)</h4>
+                            <p class="text-blue-400 text-sm font-semibold">Savitribai Phule Pune University [SPPU]</p>
+                        </div>
+                    </div>
+                    <div class="relative pl-12 group">
+                        <div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-slate-950 border-2 border-slate-700 group-hover:border-purple-500 transition-colors z-10"></div>
+                        <div>
+                            <span class="text-slate-500 text-xs font-bold uppercase tracking-widest">2022 - 2025</span>
+                            <h4 class="text-xl font-bold text-white mt-1">Bachelor of Computer Science (BCS)</h4>
+                            <p class="text-slate-400 text-sm font-semibold">Dr. Babasaheb Ambedkar Marathwada University</p>
+							<p class="text-slate-400 text-sm font-semibold">[Percentage :- 80.60% ] [CGPR :- 8.06 ]    [ Grade :- A++]</p>
+                        </div>
+                    </div>
+                    <div class="relative pl-12 group">
+                        <div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-slate-950 border-2 border-slate-700 z-10"></div>
+                        <div>
+                            <span class="text-slate-500 text-xs font-bold uppercase tracking-widest">2020 - 2022</span>
+                            <h4 class="text-lg font-bold text-white mt-1">HSC (Maharashtra Board)</h4>
+                        </div>
 
-<div class="project">
-<h3>☕ Coffee Shop Management System.</h3>
-<p>
-Created a Software System for coffee shop management, 
-menu handling, customer orders, and billing using C++. ☕💻
-</p>
-</div>
+                    </div>
+                </div>
+            </div>
 
-<div class="project">
-<h3>🏨 Hotel Management System.</h3>
-<p>
-Created a Software System for hotel booking management,
-customer records and room details using PHP and MySQL.
-</p>
-</div>
+            <div class="space-y-12">
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">Certifications</h2>
+                    <div class="p-6 glass rounded-2xl border-l-4 border-l-blue-500">
+                        <h4 class="font-bold text-white text-sm">C++ Programming Course</h4>
+                        <p class="text-slate-400 text-xs mt-1">Professional Certification</p>
+                        <a href="image/C++.pdf" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:underline uppercase tracking-tighter">
+                            <i data-lucide="external-link" class="w-3 h-3"></i> View Certificate
+                        </a>
+                    </div>
+					<div class="p-6 glass rounded-2xl border-l-4 border-l-blue-500">
+                        <h4 class="font-bold text-white text-sm">Green Skill & AI</h4>
+                        <p class="text-slate-400 text-xs mt-1">Professional Certification</p>
+                        <a href="image/edunet.png" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:underline uppercase tracking-tighter">
+                            <i data-lucide="external-link" class="w-3 h-3"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
 
-</section>
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">Hobbies</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs font-medium text-slate-300">♟️ Playing Chess</span>
+                        <span class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs font-medium text-slate-300">📺 Tech Videos</span>
+                        <span class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs font-medium text-slate-300">🎨 Web Designing</span>
+                        <span class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs font-medium text-slate-300">🚀 New Tech</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>🎓 Education</h2>
+    <!-- Contact -->
+    <section id="contact" class="py-24 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto glass rounded-[40px] p-12 relative z-10">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-black mb-4">Let's <span class="text-blue-500">Connect</span></h2>
+                <p class="text-slate-400">Available for freelance projects or full-time roles.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="flex items-center gap-4 p-6 bg-slate-950/50 rounded-2xl border border-slate-800 hover:border-blue-500/50 transition-colors">
+                    <div class="p-3 bg-blue-500/10 rounded-xl text-blue-400"><i data-lucide="mail" class="w-6 h-6"></i></div>
+                    <div>
+                        <p class="text-xs font-bold text-slate-500 uppercase tracking-widest">Email Me</p>
+                        <p class="font-bold text-slate-200">sudakeavinash42@gmail.com</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 p-6 bg-slate-950/50 rounded-2xl border border-slate-800 hover:border-blue-500/50 transition-colors">
+                    <div class="p-3 bg-indigo-500/10 rounded-xl text-indigo-400"><i data-lucide="phone" class="w-6 h-6"></i></div>
+                    <div>
+                        <p class="text-xs font-bold text-slate-500 uppercase tracking-widest">Call Me</p>
+                        <p class="font-bold text-slate-200">+91 9604859522</p>
+                    </div>
+                </div>
+            </div>
 
-<p><b>MCA – Master of Computer Applications.</b><br>
-University :- [SPPU] Savitribai Phule Pune University. (2025 - 2027)</p>
-<br>
-<p><b>🎓 BCS - Bachelor Of Computer Science.</b><br>
-University :- [BAMU] Dr. Babasheb Ambedkar Marathwada University. (2022 - 2025)</p>
+            <div class="flex justify-center gap-8">
+                <a href="https://github.com/Avinash-Sudake" target="_blank" class="text-slate-400 hover:text-white flex flex-col items-center gap-2 group">
+                    <i data-lucide="github" class="w-8 h-8 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/avinash-sudake" target="_blank" class="text-slate-400 hover:text-white flex flex-col items-center gap-2 group">
+                    <i data-lucide="linkedin" class="w-8 h-8 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">LinkedIn</span>
+                </a>
+				<a href="https://wa.me/9604859522" target="_blank" class="text-slate-400 hover:text-white flex flex-col items-center gap-2 group">
+                    <i data-lucide="linkedin" class="w-8 h-8 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
-<br>
-<p><b>🎓 HSC - Higher Secondary Certificate.</b><br>
-Board :- Maharashtra Board (2020 - 2022)</p>
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-slate-900 text-center">
+        <p class="text-slate-500 text-xs font-medium uppercase tracking-[0.2em]">
+            © <span id="year"></span> | Crafted with ❤️ by <span class="text-slate-300">Avinash Sudake</span>
+        </p>
+    </footer>
 
-<br>
-<p><b>🎓 SSC - Secondary School Certificate.</b><br>
-Board :- Maharashtra Board (2019 - 2020)</p>
-
-</section>
-
-<section>
-<h2>📜 Certifications</h2>
-<ul>
-<li><h4>💻 C++ Programming Course – Completed 👉 <a href="c++.pdf" download> Click Here</a>
-</li>
-</h4></ul>
-</section>
-
-<section>
-<h2>🎯 Hobbies</h2>
-<ul>
-<li>💻 Learning new technologies</li>
-<li>🎨 Web designing</li>
-<li>📺 Watching tech videos</li>
-<li>🏏 Playing cricket</li>
-</ul>
-</section>
-
-<section>
-<h2>🌐 Languages</h2>
-<ul>
-<li> Marathi</li>
-<li> Hindi</li>
-<li> English</li>
-</ul>
-</section>
-
-<section>
-<h2>📞 Contact</h2>
-<p>📞 Mo No :- 9604859522
-<p>📧 Email:- sudakeavinash42@email.com</p>
-<p>💻 GitHub:- https://github.com/Avinash-Sudake</p>
-<p>🔗 LinkedIn:- https://linkedin.com/in/avinash-sudake
-</p>
-
-</section>
-
-<footer>
-<p>⭐ © 2026 Avinash Sudake | MCA Portfolio</p>
-</footer>
-
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
-
-

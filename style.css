@@ -1,78 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #020617; /* slate-950 */
+        }
 
-body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#f5f7fa;
-}
+        .glass {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-header{
-background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
-color:white;
-text-align:center;
-padding:40px;
-}
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%);
+        }
 
-header h1{
-margin:0;
-font-size:40px;
-}
+        .skill-tag {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-header p{
-font-size:18px;
-}
+        .skill-tag:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px -10px rgba(59, 130, 246, 0.5);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
 
-nav{
-background:#111;
-text-align:center;
-padding:10px;
-}
+        .profile-ring {
+            position: relative;
+        }
+        
+        .profile-ring::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border: 2px dashed rgba(59, 130, 246, 0.3);
+            border-radius: 50%;
+            animation: spin 20s linear infinite;
+        }
 
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-size:18px;
-}
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
 
-nav a:hover{
-color:#00d4ff;
-}
-
-section{
-padding:40px;
-margin:30px;
-background:white;
-border-radius:10px;
-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
-}
-
-h2{
-color:#2c5364;
-border-bottom:2px solid #00d4ff;
-display:inline-block;
-padding-bottom:5px;
-}
-
-.skills span{
-background:#00d4ff;
-color:white;
-padding:8px 12px;
-margin:5px;
-display:inline-block;
-border-radius:5px;
-}
-
-.project{
-background:#f0f8ff;
-padding:15px;
-margin-top:10px;
-border-left:5px solid #00d4ff;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:15px;
-}
-
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #020617;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6;
+        }

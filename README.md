@@ -103,7 +103,7 @@ Seeking an opportunity as a **Data Analyst** where I can apply my analytical thi
 - 📧 **Email:** sudakeavinash42@gmail.com
 - 💼 **LinkedIn:** https://linkedin.com/in/avinash_sudake
 - 💻 **GitHub:** https://github.com/avinash-sudake
-- 🌐 **Portfolio:** Coming Soon...
+- 🌐 **Portfolio:** https://avinash-sudake.github.io/Portfolio/
 
 ---
 

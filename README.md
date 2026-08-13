@@ -76,14 +76,6 @@ Seeking an opportunity as a **Data Analyst** where I can apply my analytical thi
 
 ---
 
-## 📊 GitHub Stats
-
-![Avinash's GitHub stats](https://github-readme-stats.vercel.app/api?username=avinashsudake&show_icons=true&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avinashsudake&layout=compact&theme=tokyonight)
-
----
-
 ## 🏆 Core Skills
 
 - ✔ Data Cleaning
@@ -106,5 +98,3 @@ Seeking an opportunity as a **Data Analyst** where I can apply my analytical thi
 - 🌐 **Portfolio:** https://avinash-sudake.github.io/Portfolio/
 
 ---
-
-> **"Without data, you're just another person with an opinion."** — W. Edwards Deming 📊
